@@ -1,27 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saket Kumar's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
 
-<h1 align="center">Hi 👋, I'm Saket Kumar</h1>
-<h3 align="center">A passionate Coder from India.</h3>
-<img align="right" alt="coding" width="400" src="https://camo.githubusercontent.com/19db51af5f90f1b152bc0b9078f5fe97053955be5074f03f17019c70345bdcdb/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966">
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+        }
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sake8thecoder&label=Profile%20views&color=0e75b6&style=flat" alt="sake8thecoder" /> </p>
+        header {
+            background: linear-gradient(to right, #4CAF50, #45a049);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
 
-- 🌱 I’m currently learning **Data Structures And Algorithms**
+        header h1 {
+            margin: 0;
+            font-weight: 600;
+            font-size: 2.5em;
+        }
 
-- 📫 How to reach me **sake8kumar@gmail.com**
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
 
-- 📄 Know about my experiences [file:///C:/Users/Saket%20Kumar/OneDrive/Desktop/FOLDERS/RESUME%20BANA/RESUMES/Saket/JAISHRIRAMJANKI.pdf](file:///C:/Users/Saket%20Kumar/OneDrive/Desktop/FOLDERS/RESUME%20BANA/RESUMES/Saket/JAISHRIRAMJANKI.pdf)
+        section {
+            padding: 30px 0;
+        }
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/d_sak8" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="d_sak8" height="30" width="40" /></a>
-</p>
+        section h2 {
+            text-align: center;
+            font-size: 2em;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #333;
+        }
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://canvasjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Hardik0307/Hardik0307/master/assets/canvasjs-charts.svg" alt="canvasjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
+        ul {
+            list-style: none;
+            padding: 0;
+        }
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sake8thecoder&show_icons=true&locale=en&layout=compact" alt="sake8thecoder" /></p>
+        ul li {
+            background: #fff;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sake8thecoder&show_icons=true&locale=en" alt="sake8thecoder" /></p>
+        ul li strong {
+            font-weight: 600;
+        }
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sake8thecoder&" alt="sake8thecoder" /></p>
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
 
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Saket Kumar</h1>
+            <p>Coder & Computer Science Engineer</p>
+            <p>Punjab Engineering College, Chandigarh</p>
+            <p>JEE Mains, AIR: 14284</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate Computer Science and Engineering student at Punjab Engineering College, Chandigarh. My interests lie in Artificial Intelligence, Machine Learning, System Design, and Software Development. I have successfully led projects in these domains and continue to seek opportunities for learning and growth.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>B.Tech. in Computer Science and Engineering</strong> - Punjab Engineering College, Chandigarh (2022 - 2026)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Intern</strong> - Cyber Swachhta Cell, Chandigarh Police (June 2024 - July 2024)</li>
+                <li><strong>Intern</strong> - M/S Bisjhintus Private Limited (August 2022 - May 2024)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> C++, Python, SQL, Assembly Language</li>
+                <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+                <li><strong>Frameworks/Libraries:</strong> React.js, Node.js</li>
+                <li><strong>Tools:</strong> Chrome Developer Tools, VS Code, MATLAB, CLion, PyCharm, Jupyter Notebook</li>
+                <li><strong>AI & ML:</strong> Scikit-learn, TensorFlow, NLP</li>
+                <li><strong>Data Analysis:</strong> AWS, Power BI, Tableau, Excel (Advanced)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Personal Portfolio Website</strong> - Designed a personal portfolio website to showcase projects and skills using HTML, CSS, and JavaScript.</li>
+                <li><strong>The Trader</strong> - Auto trading website (Designed and developed the entire website with a focus on SDLC and optimal performance)</li>
+                <li><strong>Flipkart Clone</strong> - E-commerce website clone (Built using HTML, CSS, JavaScript, and React.js)</li>
+                <li><strong>DSA Projects</strong> - Including Snakes game, Cash Flow Minimizer, Sudoku Solver, File Zipper, and Map Navigator</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Finalist - TechFest, IIT Bombay (2022)</li>
+                <li>Participant - Technoxian, IIT Delhi (2023)</li>
+                <li>Joint-Head - E-Summit, EIC PEC</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: sake8kumar@gmail.com | saketkumar.bt22cse@pec.edu.in</p>
+            <p>Phone: +91-6284108551</p>
+            <p>GitHub: <a href="https://github.com/D_Sak8">D_Sak8</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Saket Kumar</p>
+        </div>
+    </footer>
+</body>
+</html>
