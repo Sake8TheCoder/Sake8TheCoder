@@ -115,10 +115,15 @@
 
     <section id="experience">
         <div class="container">
-            <h2>Experience</h2>
+            <h2>Experience & Achievements</h2>
             <ul>
                 <li><strong>Intern</strong> - Cyber Swachhta Cell, Chandigarh Police (June 2024 - July 2024)</li>
                 <li><strong>Intern</strong> - M/S Bisjhintus Private Limited (August 2022 - May 2024)</li>
+                <li><strong>Joint-Head</strong> - E-Summit, EIC PEC (2023 - 2024)</li>
+                <li><strong>Finalist</strong> - TechFest, IIT Bombay (2022)</li>
+                <li><strong>Participant</strong> - Technoxian, IIT Delhi (2023)</li>
+                <li><strong>Certified</strong> in AWS Cloud Computing by Amazon</li>
+                <li><strong>Certified</strong> in Web Development by Acmegrade</li>
             </ul>
         </div>
     </section>
@@ -131,8 +136,8 @@
                 <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
                 <li><strong>Frameworks/Libraries:</strong> React.js, Node.js</li>
                 <li><strong>Tools:</strong> Chrome Developer Tools, VS Code, MATLAB, CLion, PyCharm, Jupyter Notebook</li>
-                <li><strong>AI & ML:</strong> Scikit-learn, TensorFlow, NLP</li>
-                <li><strong>Data Analysis:</strong> AWS, Power BI, Tableau, Excel (Advanced)</li>
+                <li><strong>AI & ML:</strong> Scikit-learn, TensorFlow, NLP, Matplotlib</li>
+                <li><strong>Data:</strong> Data Analysis, Data Engineering, Neural Networks, Data Modeling, Data Visualization, AWS, Power BI, Excel (Advanced), Tableau</li>
             </ul>
         </div>
     </section>
@@ -143,19 +148,9 @@
             <ul>
                 <li><strong>Personal Portfolio Website</strong> - Designed a personal portfolio website to showcase projects and skills using HTML, CSS, and JavaScript.</li>
                 <li><strong>The Trader</strong> - Auto trading website (Designed and developed the entire website with a focus on SDLC and optimal performance)</li>
-                <li><strong>Flipkart Clone</strong> - E-commerce website clone (Built using HTML, CSS, JavaScript, and React.js)</li>
                 <li><strong>DSA Projects</strong> - Including Snakes game, Cash Flow Minimizer, Sudoku Solver, File Zipper, and Map Navigator</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="achievements">
-        <div class="container">
-            <h2>Achievements</h2>
-            <ul>
-                <li>Finalist - TechFest, IIT Bombay (2022)</li>
-                <li>Participant - Technoxian, IIT Delhi (2023)</li>
-                <li>Joint-Head - E-Summit, EIC PEC</li>
+                <li><strong>Flipkart Clone</strong> - E-commerce website clone (Built using HTML, CSS, JavaScript, and React.js)</li>
+                <li><strong>News-fetching Application</strong> - Used machine learning to provide users with the latest headlines and articles (Python, JavaScript, HTML, CSS)</li>
             </ul>
         </div>
     </section>
